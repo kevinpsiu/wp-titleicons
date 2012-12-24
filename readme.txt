@@ -3,7 +3,7 @@ Contributors: kevinpsiu
 Tags: title, posts
 Requires at least: 3.0.1
 Tested up to: 3.5
-Stable tag: 0.1
+Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,7 +16,7 @@ Title Icons does what it says: adds an icon to your post titles to give each pos
 Uses Gcons open source icons by http://greepit.com
 
 Future features:
-* Set default icon
+
 * Custom style options
 * Icon theming
 
@@ -25,10 +25,13 @@ Future features:
 1. Upload all the files to `/wp-content/plugins`
 1. Activate plugin from the `Plugins` menu
 1. Go to any existing post or new post and select an icon from the sidebar
-
-If you want to add more icons to the options, just upload image files to `/wp-content/plugins/title-icons/icons` folder.
+1. To select a default icon, go to the `Settings->Title Icons` menu and choose from an existing icon.
+1. If you want to add more icons to the options, just upload image files to `/wp-content/plugins/title-icons/icons` folder.
 
 == Changelog ==
+
+= 0.2 =
+* Added default icon selection menu in settings
 
 = 0.1 =
 * First version, plugin release
