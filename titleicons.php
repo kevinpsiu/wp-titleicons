@@ -54,7 +54,7 @@ add_filter('the_title', 'add_title_icon', 1, 2);
 function add_title_icon($title, $id){
     //Only display icon in "the loop" and not in admin pages
     if ( in_the_loop() && !is_admin() ) {
-        return '<img src="'.plugins_url('icons/', __FILE__ ).title_icon($id).'" class="titleicon" style="height:'.get_option('titleicons_iconheight', '32').'px"/> ' . $title;
+        return '<img src="'.plugins_url('icons/', __FILE__ ).title_icon($id).'" class="titleicon"/> ' . $title;
     }
     else
         return $title;
