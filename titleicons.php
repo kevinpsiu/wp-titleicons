@@ -3,7 +3,7 @@
 Plugin Name: Title Icons
 Plugin URI: http://github.com/kevinpsiu/wp-titleicons
 Description: Adding icons to your post titles to spice things up
-Version: 0.1
+Version: 0.2
 Author: Kevin P. Siu
 Author URI: http://kevinpsiu.ca
 License: GPL v2
